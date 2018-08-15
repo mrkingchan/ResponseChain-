@@ -15,6 +15,14 @@
 		8F630A162123F5AE00ED0CD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F630A152123F5AE00ED0CD4 /* main.m */; };
 		8F630A202123F5AE00ED0CD4 /* ResponseChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F630A1F2123F5AE00ED0CD4 /* ResponseChainTests.m */; };
 		8F630A2B2123F5AE00ED0CD4 /* ResponseChainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F630A2A2123F5AE00ED0CD4 /* ResponseChainUITests.m */; };
+		8F630A3D2123F5E200ED0CD4 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F630A3C2123F5E200ED0CD4 /* RedView.m */; };
+		8F630A402123F5ED00ED0CD4 /* YellowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F630A3F2123F5ED00ED0CD4 /* YellowView.m */; };
+		8F630A432123F5F900ED0CD4 /* BlueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F630A422123F5F900ED0CD4 /* BlueView.m */; };
+		8F630A4921240E4900ED0CD4 /* event distribute desc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F630A4421240E4800ED0CD4 /* event distribute desc.png */; };
+		8F630A4A21240E4900ED0CD4 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F630A4521240E4800ED0CD4 /* example.png */; };
+		8F630A4B21240E4900ED0CD4 /* repsonseChain desc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F630A4621240E4800ED0CD4 /* repsonseChain desc.png */; };
+		8F630A4C21240E4900ED0CD4 /* breakPoint stack.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F630A4721240E4800ED0CD4 /* breakPoint stack.png */; };
+		8F630A4D21240E4900ED0CD4 /* event distribute.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F630A4821240E4900ED0CD4 /* event distribute.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,17 @@
 		8F630A262123F5AE00ED0CD4 /* ResponseChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ResponseChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F630A2A2123F5AE00ED0CD4 /* ResponseChainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponseChainUITests.m; sourceTree = "<group>"; };
 		8F630A2C2123F5AE00ED0CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F630A3B2123F5E200ED0CD4 /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		8F630A3C2123F5E200ED0CD4 /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		8F630A3E2123F5ED00ED0CD4 /* YellowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YellowView.h; sourceTree = "<group>"; };
+		8F630A3F2123F5ED00ED0CD4 /* YellowView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YellowView.m; sourceTree = "<group>"; };
+		8F630A412123F5F900ED0CD4 /* BlueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueView.h; sourceTree = "<group>"; };
+		8F630A422123F5F900ED0CD4 /* BlueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueView.m; sourceTree = "<group>"; };
+		8F630A4421240E4800ED0CD4 /* event distribute desc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "event distribute desc.png"; sourceTree = "<group>"; };
+		8F630A4521240E4800ED0CD4 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+		8F630A4621240E4800ED0CD4 /* repsonseChain desc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "repsonseChain desc.png"; sourceTree = "<group>"; };
+		8F630A4721240E4800ED0CD4 /* breakPoint stack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "breakPoint stack.png"; sourceTree = "<group>"; };
+		8F630A4821240E4900ED0CD4 /* event distribute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "event distribute.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +124,17 @@
 				8F630A072123F5A800ED0CD4 /* AppDelegate.m */,
 				8F630A092123F5A800ED0CD4 /* ViewController.h */,
 				8F630A0A2123F5A800ED0CD4 /* ViewController.m */,
+				8F630A3B2123F5E200ED0CD4 /* RedView.h */,
+				8F630A3C2123F5E200ED0CD4 /* RedView.m */,
+				8F630A3E2123F5ED00ED0CD4 /* YellowView.h */,
+				8F630A3F2123F5ED00ED0CD4 /* YellowView.m */,
+				8F630A412123F5F900ED0CD4 /* BlueView.h */,
+				8F630A422123F5F900ED0CD4 /* BlueView.m */,
+				8F630A4721240E4800ED0CD4 /* breakPoint stack.png */,
+				8F630A4421240E4800ED0CD4 /* event distribute desc.png */,
+				8F630A4821240E4900ED0CD4 /* event distribute.png */,
+				8F630A4521240E4800ED0CD4 /* example.png */,
+				8F630A4621240E4800ED0CD4 /* repsonseChain desc.png */,
 				8F630A0C2123F5A800ED0CD4 /* Main.storyboard */,
 				8F630A0F2123F5AE00ED0CD4 /* Assets.xcassets */,
 				8F630A112123F5AE00ED0CD4 /* LaunchScreen.storyboard */,
@@ -235,8 +265,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F630A4D21240E4900ED0CD4 /* event distribute.png in Resources */,
+				8F630A4921240E4900ED0CD4 /* event distribute desc.png in Resources */,
+				8F630A4A21240E4900ED0CD4 /* example.png in Resources */,
 				8F630A132123F5AE00ED0CD4 /* LaunchScreen.storyboard in Resources */,
 				8F630A102123F5AE00ED0CD4 /* Assets.xcassets in Resources */,
+				8F630A4B21240E4900ED0CD4 /* repsonseChain desc.png in Resources */,
+				8F630A4C21240E4900ED0CD4 /* breakPoint stack.png in Resources */,
 				8F630A0E2123F5A800ED0CD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,7 +298,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F630A0B2123F5A800ED0CD4 /* ViewController.m in Sources */,
+				8F630A402123F5ED00ED0CD4 /* YellowView.m in Sources */,
+				8F630A432123F5F900ED0CD4 /* BlueView.m in Sources */,
 				8F630A162123F5AE00ED0CD4 /* main.m in Sources */,
+				8F630A3D2123F5E200ED0CD4 /* RedView.m in Sources */,
 				8F630A082123F5A800ED0CD4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
