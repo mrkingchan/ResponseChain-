@@ -34,4 +34,9 @@
     // 4.如果没有比自己合适的子控件,最合适的view就是自己
     return self;
 }
+
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
+    return CGRectContainsPoint(self.bounds, point);
+}
+
 @end
