@@ -13,9 +13,7 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
     [super touchesBegan:touches withEvent:event];
-    
 }
-
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     NSLog(@"查找到了%@",NSStringFromClass([self class]));
@@ -36,5 +34,4 @@
     // 4.如果没有比自己合适的子控件,最合适的view就是自己
     return self;
 }
-
 @end
